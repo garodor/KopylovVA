@@ -1,3 +1,1 @@
 print ('Hello word!')
-#test\
-
