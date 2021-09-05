@@ -1,5 +1,2 @@
 #hhhhh
 print("ffff")
-
-
-
