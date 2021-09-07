@@ -1,3 +1,0 @@
-#hhhhh
-print("ffff")
-#ggggggg
