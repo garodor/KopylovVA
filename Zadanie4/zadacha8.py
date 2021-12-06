@@ -1,4 +1,6 @@
-s = input("Введите строку ")
+# -- coding: utf-8 --
+
+s = input("Введите строку: ")
 
 h1 = s.find('h')
 h2 = s.rfind('h') 

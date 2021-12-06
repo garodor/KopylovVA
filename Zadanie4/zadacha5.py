@@ -1,4 +1,6 @@
-s = input("Введите строку ")
+# -- coding: utf-8 --
+
+s = input("Введите строку: ")
 
 if s.count ('f') ==1:
     print(s.find('f'))
