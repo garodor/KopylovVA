@@ -1,7 +1,8 @@
 # -- coding: utf-8 --
+def vi():
+   A = int(input("Введите число A "))
+   B = int(input("Введите число B "))
 
-A = int(input("Введите число A "))
-B = int(input("Введите число B "))
-
-for i in range(A, B + 1):
-    print(i)
+   for i in range(A, B + 1):
+       print(i)
+vi()

@@ -1,11 +1,13 @@
 # -- coding: utf-8 --
+def vi():
+    A = int(input("Введите число A "))
+    B = int(input("Введите число B "))
 
-A = int(input("Введите число A "))
-B = int(input("Введите число B "))
+    if A < B:
+        for i in range(A,B + 1):
+            print(i)
+    else:
+        for i in range( A , B - 1, -1):
+            print(i)
 
-if A < B:
-    for i in range(A,B + 1):
-        print(i)
-else:
-    for i in range( A , B - 1, -1):
-        print(i)
+vi()

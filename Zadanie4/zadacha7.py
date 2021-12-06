@@ -1,11 +1,13 @@
 # -- coding: utf-8 --
+def vb():
+   s = input("Введите строку: ")
 
-s = input("Введите строку: ")
+   a = s.find('h')
+   b = s.rfind('h')
 
-a = s.find('h')
-b = s.rfind('h')
+   s1 = s[:a]
+   s2 = s[b + 1:]
 
-s1 = s[:a]
-s2 = s[b + 1:]
+   print(s1 + s2)
 
-print(s1 + s2)
+vb()

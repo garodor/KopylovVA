@@ -1,7 +1,9 @@
 # -- coding: utf-8 --
+def vb():
+   s = input("Введите строку: ")
 
-s = input("Введите строку: ")
+   b = s.replace('a', '')
 
-b = s.replace('a', '')
+   print(b)
 
-print(b)
+vb()

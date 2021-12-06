@@ -1,5 +1,6 @@
 # -- coding: utf-8 --
 
+
 def funck(A1,B1,c):
     for i in range(A1,B1,c):
     
